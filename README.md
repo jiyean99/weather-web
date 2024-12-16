@@ -1,7 +1,7 @@
 ## 리액트 날씨 웹앱 프로젝트
 
 - Weather API를 통해 도시명에 따른 온도와 날씨 상태 데이터 받아오기
- ``` jsx const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}`; ```
+ ```const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}`; ```
 - 각 데이터의 타입 설정
   도시 이름 / 온도 / 날씨 상태 (e.g., Clear, Rain)
 - 의존성 설치
